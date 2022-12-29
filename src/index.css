@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: auto !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+body , html {
+  font-family: 'Gotham-Black';
+  height: 100vh;
+}
+.bg-blue{
+  background: #214385;
+}
+.bg-orange{
+  background: #ecb450;
+}
+.text-orange{
+  color: #ecb450;
+}
+.text-blue{
+  color:#214385
+}
+.border-blue{
+  border-color:#214385
+}
+
+input{
+  height: 40px;
+}
+.hover\:bg-hover:hover {
+  background: #2452af;
+}
+.hover\:bg-gray-100:hover{
+  background:rgb(228 228 228 / 71%) !important;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Gotham-Black';
+  font-weight: 100;
+  src: local('Gotham-Black'), url(./fonts/Gotham-Book.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: local('Gotham-Bold'), url(./fonts/Gotham-Black.otf) format('truetype');
+}
+
+
+button, input,select{
+  font-family: 'Gotham-Black';
+}
